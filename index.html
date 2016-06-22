@@ -1,52 +1,61 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
-		<title> Zombies </title>
+		<style>
+			div.top {
+				background-color: #7a7878;
+				position: fixed;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 15%;
+				border: 3px solid #c7c3c3;
+			}
+			div.left {
+				background-color: #7a7878;
+				position: fixed;
+				top: 15%;
+				left: 0;
+				width: 50%;
+				height: 85%;
+				border: 3px solid #c7c3c3;
+			}
+			div.right {
+				background-color: #7a7878;
+				position: fixed;
+				top: 15%;
+				right: 0;
+				width: 50%;
+				height: 85%;
+				border: 3px solid #c7c3c3;
+			}
+		</style>
 	</head>
-
+	
 	<body>
-		<div id="page">  
-			<div id="content-primary">
-				<div class="div1">Hola</div>
-				<div class="div2">Hola</div>
-			</div> 
-			<div id="content-secondary">
-				<div class="div3"> <font color="green" size=3 face="Arial"> <a href="Page.html"> Hola </a> </font> </div>
-			</div> 
+		<div class="top">
+			<h1 align="center"> <font color="Black" size=5 face="Arial">Bienvenido a fictional-adventure! </font> </h1>
+			<p align="center"> <font color="Black" size=4 face="Arial"> Estamos trabajando en la pagina, por lo que su contenido no esta completo ni esta es su version final, lamentamos las molestias </font> </p>
 		</div>
 		
-		<style media="screen" type="text/css">
+		<div class="left">
+			<h1 align="center"> <font color="Black" size=5 face="Arial"> Indice </font> </h1>
+			<font color=#7a7878 size=5 face="Arial">
+				<ul align="center">
+					<li> <a href="/fictional-adventure/DerEis/eisen.html"> <font color="black" size=4 face="Arial"> Der Eisendrache (actualmente tabla de mapas) </font> </a> </li>
+					<li> <a href="/fictional-adventure/ZnS.html"> <font color="black" size=4 face="Arial"> Zetsubou no Shima </font> </a> </li>
+					<li> <a href="/fictional-adventure/index.html"> <font color="black" size=4 face="Arial"> Pagina de inicio (esta pagina)</font> </a> </li>
+				</ul>
+			</font>
+		</div>
 
-		body {text-align: center;} 
-			#page { 
-				margin: 0 auto; 
-				width: 50%; 
-				text-align: left;} 
-			#content-primary { 
-				float: right; 
-				width: 60%;
-				height:100%;} 
-			#content-secondary { 
-				float: right; 
-				width: 20%;
-				height:100%;} 
+		<div class="right">
+			<h1 align="center"> <font color="Black" size=5 face="Arial"> Noticias </font> </h1>
+			<p align="center"> <font color="Black" size=4 face="Arial"> Version actual: 0.1.0 </font> </p>
+			<p align="left"> <font color="Black" size=3 face="Calibri"> <u> Cambios: </u> </font> </p>
+			<ul align="left">
+				<li> <font color="Black" size=3 face="Calibri"> Nueva pagina de inicio (por fin!) </font> </li>
+		</div>
 
-		</style>
 	</body>
-	
-
 </html>
-
-<!--<a href="http://www.html.net/">Desde aquí enlazamos con HTML.net</a>-->
-
-
-	<!--**No frames needed atm, just want divs in the front page**
-	<frameset>
-	
-		<frameset cols=50%,50%>
-			<frame src="index-left.html">
-			<frame src="index-right.html">
-			<frame scrolling="no">
-			<frame noresize>
-		</frameset>-->
